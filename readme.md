@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/n7CC8RU.png" title="hackintosh" alt="hackintosh Project"><
+<img src="https://i.imgur.com/n7CC8RU.png" title="hackintosh" alt="hackintosh Project">
 
 # MacBook Pro - but made cheaper.
 
