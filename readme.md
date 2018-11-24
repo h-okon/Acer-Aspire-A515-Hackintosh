@@ -13,6 +13,9 @@
 ## Screenshoots:
 <img src="https://i.imgur.com/axDujSd.png" title="hackintosh" alt="hackintosh Project">
 
+> HDMI audio & video working:
+<img src="https://i.imgur.com/xr3BUMT.png" title="hackintosh" alt="hackintosh Project">
+
 ## Credits: 
 Huge thanks to <a href = "https://www.tonymacx86.com/members/nortek.1202534/">Nortek</a>, for sharing on tonymacx86 files, which became base for this build.
 
