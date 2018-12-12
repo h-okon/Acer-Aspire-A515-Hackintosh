@@ -3,7 +3,9 @@
 # MacBook Pro - but made cheaper.
 
 > Acer Aspire A515-51G
-> Current running macOS: macOS Mojave 10.14.2 (18C54)
+
+
+Current running macOS: macOS Mojave 10.14.2 (18C54)
 > running macOS Mojave 10.14.1 (18B75) -- outdated.
 
 ## Specification:
