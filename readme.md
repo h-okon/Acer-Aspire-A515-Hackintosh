@@ -3,7 +3,8 @@
 # MacBook Pro - but made cheaper.
 
 > Acer Aspire A515-51G
-> running macOS Mojave 10.14.1 (18B75)
+> Current running macOS: macOS Mojave 10.14.2 (18C54)
+> running macOS Mojave 10.14.1 (18B75) -- outdated.
 
 ## Specification:
  - CPU : Intel Core i5 - 8250U 1.6GHz with Turbo Boost up to 3.4GHz (works);
