@@ -7,12 +7,13 @@
 
 Current running macOS: macOS Mojave 10.14.2 (18C54)
 > running macOS Mojave 10.14.1 (18B75) -- outdated.
-
+## MAKE SURE TO REMOVE KEXTS ASSOCIATED WITH BCM94325Z UNLESS YOU ARE USING IT.
 ## Specification:
  - CPU : Intel Core i5 - 8250U 1.6GHz with Turbo Boost up to 3.4GHz (works);
  - GPU : Intel UHD Graphics 620 (MX130 is disabled via DSDT patch);
  - RAM : 8GB of DDR4 2400MHz GoodRam SO-DIMM DDR$ RAM;
  - HDD/SDD : 128GB of Kingston SSD & 1TB Segate Barracuda 5400RPM HDD (SSD for boot drive, HDD only for TimeMachine);
+ - Wi-Fi: BCM94325Z m-PCI / airport && bluetooth fully working.
 ## Screenshoots:
 <img src="https://i.imgur.com/axDujSd.png" title="hackintosh" alt="hackintosh Project">
 
