@@ -258,7 +258,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string> abm_firstpolldelay=6000 nv_disable=1</string>
+		<string>nv_disable=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -684,6 +684,44 @@
 				AQMDAwAAIAIAAFABAAAAgA==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EnableWifiBCM94352Z</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				MdtMPX3YdRI=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				Mdv/w5CQkJA=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -696,29 +734,31 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.0178.B00.1806260902</string>
+		<string>MBA81.88Z.F000.B00.1809171321</string>
 		<key>Board-ID</key>
-		<string>Mac-827FB448E656EC26</string>
+		<string>Mac-827FAC58A8FDFA22</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028057004NF64V1F</string>
+		<string>FVF852310GUA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>Air-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.220.100.0.0</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>MacBook Air</string>
 		<key>FirmwareFeatures</key>
 		<string>0xFC0FE137</string>
 		<key>FirmwareFeaturesMask</key>
@@ -730,13 +770,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,2</string>
+		<string>MacBookAir8,1</string>
 		<key>SerialNumber</key>
-		<string>C02W65YFJHCD</string>
+		<string>FVFXW06BJK77</string>
 		<key>SmUUID</key>
-		<string>D4E6100B-3764-4BEF-9A41-AEDB06F7F90F</string>
+		<string>16C7D8D5-CCE8-4E94-B031-BD687F8EB810</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
