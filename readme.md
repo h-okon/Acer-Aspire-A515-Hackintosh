@@ -8,6 +8,16 @@
 Current running macOS: macOS Mojave 10.14.2 (18C54)
 > running macOS Mojave 10.14.1 (18B75) -- outdated.
 ## MAKE SURE TO REMOVE KEXTS ASSOCIATED WITH BCM94325Z UNLESS YOU ARE USING IT.
+> Major update v1 (13 Jan 2019)
+
+1. updated DSDT
+2. disabled the MX130 graphics
+3. battery life improved (+up to 1.5hr)
+4. CodecCommander finally fixed
+5. wake and sleep issues resolved
+6. battery driver replaced
+7. deprecated methods removed and updated.
+
 ## Specification:
  - CPU : Intel Core i5 - 8250U 1.6GHz with Turbo Boost up to 3.4GHz (works);
  - GPU : Intel UHD Graphics 620 (MX130 is disabled via DSDT patch);
