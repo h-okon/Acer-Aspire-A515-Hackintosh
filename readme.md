@@ -6,7 +6,6 @@
 
 
 Current running macOS: macOS Mojave 10.14.2 (18C54)
-> running macOS Mojave 10.14.1 (18B75) -- outdated.
 ## MAKE SURE TO REMOVE KEXTS ASSOCIATED WITH BCM94325Z UNLESS YOU ARE USING IT.
 
 
