@@ -16,7 +16,7 @@ Current running macOS: macOS Mojave 10.14.2 (18C54)
  - HDD/SDD : 128GB of Kingston SSD & 1TB Segate Barracuda 5400RPM HDD (SSD for boot drive, HDD only for TimeMachine);
  - Wi-Fi: BCM94325Z m-PCI 
 ## Known issues:
- - HDMI Audio
+ - HDMI Audio ( possible sollution: FakePCIID_Intel_HDMI_Audio.kext )
  - Seldom kernel panic on boot related to I2C interface
  - Audio after sleep (not tested)
 ## Screenshoots:
