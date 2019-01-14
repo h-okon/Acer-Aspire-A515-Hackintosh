@@ -15,6 +15,10 @@ Current running macOS: macOS Mojave 10.14.2 (18C54)
  - RAM : 8GB of DDR4 2400MHz GoodRam SO-DIMM DDR$ RAM;
  - HDD/SDD : 128GB of Kingston SSD & 1TB Segate Barracuda 5400RPM HDD (SSD for boot drive, HDD only for TimeMachine);
  - Wi-Fi: BCM94325Z m-PCI 
+## Known issues:
+ - HDMI Audio
+ - Seldom kernel panic on boot related to I2C interface
+ - Audio after sleep (not tested)
 ## Screenshoots:
 <img src="https://i.imgur.com/axDujSd.png" title="hackintosh" alt="hackintosh Project">
 
