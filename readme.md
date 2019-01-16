@@ -27,7 +27,7 @@ Current running macOS: macOS Mojave 10.14.2 (18C54)
 > Major update v1 (13 Jan 2019)
 
 1. updated DSDT
-2. disabled the MX130 graphics
+2. disabled the MX130 graphics ( IORegistry does not list RP01 device after applying _OFF from _INI  ACPI Patch
 3. battery life improved (+up to 1.5hr)
 4. CodecCommander finally fixed
 5. wake and sleep issues resolved
