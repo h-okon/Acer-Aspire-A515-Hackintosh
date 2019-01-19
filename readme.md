@@ -1,3 +1,10 @@
+##Deprecated on 10.14.2. 
+## Use 10.14 with those kexts in order to prevent from random kernel panics.
+
+
+
+
+
 <img src="https://i.imgur.com/n7CC8RU.png" title="hackintosh" alt="hackintosh Project">
 
 # MacBook Pro - but made cheaper.
