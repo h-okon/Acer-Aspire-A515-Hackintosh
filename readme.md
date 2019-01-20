@@ -1,6 +1,5 @@
-##Deprecated on 10.14.2. 
-## Use 10.14 with those kexts in order to prevent from random kernel panics.
-
+## !! Make sure to update APFS VFS drivers before proceeding to install !!
+https://github.com/acidanthera/AppleSupportPkg/releases
 
 
 
