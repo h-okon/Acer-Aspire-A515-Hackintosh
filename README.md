@@ -1,3 +1,9 @@
+note: This project is simply deprecated. I had to many issues to bother about that you may face also:
+> booting with DW1560 sometimes boots somethimes refuses to do so
+> No HDMI Audio what so ever
+> UHD620 framebuffer patching issues
+
+
 # Acer Aspire A515-51G Hackintosh
 ![alt text](https://i.imgur.com/n7CC8RU.png "Logo") 
 ### Hardware used:
