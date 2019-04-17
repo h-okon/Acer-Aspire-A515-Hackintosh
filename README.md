@@ -2,6 +2,7 @@ note: This project is simply deprecated. I had to many issues to bother about th
 > booting with DW1560 sometimes boots somethimes refuses to do so
 > No HDMI Audio what so ever
 > UHD620 framebuffer patching issues
+> Edit 17.04.19 -> Coming back to this project. Will try to fix all of above issues. Building from scratch.
 
 
 # Acer Aspire A515-51G Hackintosh
