@@ -5,7 +5,19 @@
 ![alt text](https://i.imgur.com/n7CC8RU.png "Logo") 
 ### Hardware used:
 ![alt text](https://i.imgur.com/gh12k45.png "specs") 
-
+### What is working:
+    1. booting with Clover bootloader
+    2. basic framebuffer support on UHD620 graphics
+    3. disabled MX130 graphics card ( you will have to do it anyway, as every motherboard has other PCIO pinning )
+    4. wifi (BCM94352Z)
+    5. airdrop
+    6. bluetooth
+    7. touchpad ( I2C support via voodooi2c, full gestures support ) [ELAN0501]
+    8. HDMI output on UHD620 ( video only )
+    9. audio ( jack + built-in speakers )
+    10. battery status
+    11. brightness control ( currently ps2 mapping to Scr Lk / Pause Break keys + slider in system prefrences )
+    12. hiDpi ( one click hidpi, only issue: big apple logo on startup )
 ### what is not working:
     1. HDMI Audio
     2. Wi-Fi card (You will need to replace it to the one that's compatibile - DW1560 will do.)
