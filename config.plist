@@ -123,7 +123,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string> nv_disable=1 abm_firstpolldelay=6000 debug=0x100 -no_compat_check</string>
+		<string>-v nv_disable=1 abm_firstpolldelay=6000 debug=0x100 -no_compat_check</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -371,7 +371,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>3</integer>
+				<integer>31</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -528,6 +528,47 @@
 				<key>Replace</key>
 				<data>
 				igKEwOtC
+				</data>
+			</dict>
+		</array>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>EnableWifiBCM94352Z</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				gflSqgAAdSk=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x</string>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				gflSqgAAZpA=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AirPortBrcm4360 - fcvo </string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				MdtMPX3YdRI=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AirPortBrcm4360</string>
+				<key>Replace</key>
+				<data>
+				Mdv/w5CQkJA=
 				</data>
 			</dict>
 		</array>
