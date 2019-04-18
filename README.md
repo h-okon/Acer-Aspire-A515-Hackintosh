@@ -1,8 +1,4 @@
-note: This project is simply deprecated. I had to many issues to bother about that you may face also:
-> booting with DW1560 sometimes boots somethimes refuses to do so
-> No HDMI Audio what so ever
-> UHD620 framebuffer patching issues
-> Edit 17.04.19 -> Coming back to this project. Will try to fix all of above issues. Building from scratch.
+
 
 
 # Acer Aspire A515-51G Hackintosh
@@ -12,9 +8,10 @@ note: This project is simply deprecated. I had to many issues to bother about th
 
 ### what is not working:
     1. HDMI Audio
-    2. Wi-Fi card (You will need to replace it to the one that's compatibile)
+    2. Wi-Fi card (You will need to replace it to the one that's compatibile - DW1560 will do.)
 
-
+### WARNING
+Remove kexts asociated with BCM94352Z(DW1560) if you do not have installed one
 ### Installation
 
 There are many tutorials on how to install OSX on a PC class hardware. However using my Clover you can simply install OS 10.14 or newer on Acer Aspire A515. Make sure to connect USB keyboard and mouse as the I2C bus is supported (yet) during instalation.
