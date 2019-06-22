@@ -133,7 +133,7 @@
 		<key>SkipHibernateTimeout</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -371,7 +371,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>31</integer>
+				<integer>3</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -583,17 +583,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.0178.B00.1806260902</string>
+		<string>MBP152.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028057004NF64V1F</string>
+		<string>C02753403GUJH4RJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -604,6 +604,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.250.320.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -621,9 +623,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02W65YFJHCD</string>
+		<string>C02W16ZUJHCD</string>
 		<key>SmUUID</key>
-		<string>D4E6100B-3764-4BEF-9A41-AEDB06F7F90F</string>
+		<string>6E74772E-2FBE-49BC-B11E-F8B58FA30488</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
