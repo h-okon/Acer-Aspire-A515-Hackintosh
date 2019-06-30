@@ -38,7 +38,8 @@ There are many tutorials on how to install OSX on a PC class hardware. However u
 ### Post installation
 
 Fix messed up audio on audio-layout 3 while using headphones
-https://github.com/hackintosh-stuff/ComboJack
+This is tested on Xiaomi notebooks, however it will work just fine with our Acer Aspire A515 (Which uses the same ALC255 codec and even has the same pinout!)
+[click](https://github.com/hackintosh-stuff/ComboJack)
 
 First things first, if you are using an SSD make sure to enable the TRIM support:
 
