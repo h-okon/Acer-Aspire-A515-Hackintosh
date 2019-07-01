@@ -10,6 +10,8 @@
 # 
  # Acer Aspire A515-51G i5-8250U/8GB/MX130
 ## <center>is what I picked instead of 12" MacBook</center>
+## But why you may ask, well - here are some benchmarks:
+![benchmarks](https://i.imgur.com/YJLJFUv.png)
 ### Hardware used:
 
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
@@ -19,7 +21,6 @@
 
 1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
 
-  
 
 ### WARNING
 
