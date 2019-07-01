@@ -15,7 +15,7 @@
 ### Hardware used:
 
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
-
+(all newest, all in base configs)
 
 ### ⛔️ what is not working:
 
