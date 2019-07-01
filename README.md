@@ -17,9 +17,7 @@
 
 ### ⛔️ what is not working:
 
-1. HDMI Audio
-
-2. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
+1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
 
   
 

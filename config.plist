@@ -123,17 +123,17 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-v nv_disable=1 abm_firstpolldelay=6000 debug=0x100 -no_compat_check</string>
+		<string>nv_disable=1 abm_firstpolldelay=6000 lilucpu=8</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>Fast</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>SkipHibernateTimeout</key>
 		<true/>
-		<key>Timeout</key>
-		<integer>5</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -146,117 +146,6 @@
 	<string>This file is for spoofing KabyLake as Skylake (requried prior to 10.12.6)</string>
 	<key>Devices</key>
 	<dict>
-		<key>AddProperties</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
-				<data>
-				I2Rpc3BsYXkA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus class-code to prevent graphics drivers loading for NVidia</string>
-				<key>Device</key>
-				<string>NVidia</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
-				<data>
-				/////w==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on AMD</string>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>name</string>
-				<key>Value</key>
-				<data>
-				I2Rpc3BsYXkA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on AMD</string>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>IOName</string>
-				<key>Value</key>
-				<string>#display</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus class-code to prevent graphics drivers loading for AMD</string>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>class-code</string>
-				<key>Value</key>
-				<data>
-				/////w==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus vendor-id to prevent graphics drivers loading for AMD</string>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>vendor-id</string>
-				<key>Value</key>
-				<data>
-				//8AAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Inject bogus device-id to prevent graphics drivers loading for AMD</string>
-				<key>Device</key>
-				<string>ATI</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Key</key>
-				<string>device-id</string>
-				<key>Value</key>
-				<data>
-				//8AAA==
-				</data>
-			</dict>
-		</array>
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
@@ -273,79 +162,9 @@
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>
 			<dict>
-				<key># DVMT-prealloc</key>
-				<string>32MB BIOS, 19MB framebuffer, 9MB cursor bytes (credit RehabMan)</string>
-				<key>## patch0</key>
-				<string>Enable lid wake for 0x19260002 credit syscl/lighting/Yating Zhou</string>
-				<key>## patch1</key>
-				<string>Enable lid wake for 0x19260004 credit syscl/lighting/Yating Zhou</string>
-				<key>#framebuffer-con0-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-con0-type</key>
-				<data>
-				AAQAAA==
-				</data>
-				<key>#framebuffer-con1-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-con1-flags</key>
-				<data>
-				hwEAAA==
-				</data>
 				<key>#framebuffer-con1-pipe</key>
 				<data>
 				EgAAAA==
-				</data>
-				<key>#framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>#framebuffer-con2-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-con2-flags</key>
-				<data>
-				hwEAAA==
-				</data>
-				<key>#framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>#framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>#framebuffer-con3-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-con3-flags</key>
-				<data>
-				hwEAAA==
-				</data>
-				<key>#framebuffer-con3-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>#framebuffer-con3-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>#framebuffer-patch0-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-patch0-find</key>
-				<data>
-				ChMDAAAABgAAAAAAAAAAAA==
-				</data>
-				<key>#framebuffer-patch0-replace</key>
-				<data>
-				DxMDAAAABgAAAAAAAAAAAA==
-				</data>
-				<key>#framebuffer-patch1-enable</key>
-				<integer>1</integer>
-				<key>#framebuffer-patch1-find</key>
-				<data>
-				CgsDAAAHBgADAAAABAAAAA==
-				</data>
-				<key>#framebuffer-patch1-replace</key>
-				<data>
-				DwsDAAAHBgADAAAABAAAAA==
 				</data>
 				<key>#hda-gfx</key>
 				<string>onboard-1</string>
@@ -357,6 +176,16 @@
 				<data>
 				FhkAAA==
 				</data>
+				<key>framebuffer-con1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con1-flags</key>
+				<data>
+				hwEAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
@@ -366,6 +195,10 @@
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
 				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
