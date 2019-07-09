@@ -8,7 +8,7 @@
 ![alt text](https://i.imgur.com/tNUJpOw.png  "Logo")
 [click here to view full res image](https://i.imgur.com/zn9kw5U.png)
 # 
- # Acer Aspire A515-51G i5-8250U/8GB/MX130
+ # Acer Aspire A515-51G i5-8250U/8GB/MX130 - my daily driver
 ## <center>is what I picked instead of 12" MacBook</center>
 ## But why you may ask, well - here are some benchmarks:
 ![benchmarks](https://i.imgur.com/YJLJFUv.png)
