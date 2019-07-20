@@ -12,6 +12,7 @@
 ## <center>is what I picked instead of 12" MacBook</center>
 ## But why you may ask, well - here are some benchmarks:
 ![benchmarks](https://i.imgur.com/YJLJFUv.png)
+Note: I do not use this setup anymore, however this efi-folder is still valid as for 10.14.5 version.
 ### Hardware used:
 
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
