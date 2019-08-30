@@ -20,6 +20,7 @@
 ### ⛔️ what is not working:
 
 1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
+2. Bluetooth (if you are using DW1560)
 
 
 ### WARNING
