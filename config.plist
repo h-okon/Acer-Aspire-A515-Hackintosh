@@ -126,14 +126,14 @@
 		<string>nv_disable=1 abm_firstpolldelay=6000 lilucpu=8</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>Fast</key>
-		<true/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>SkipHibernateTimeout</key>
 		<true/>
+		<key>Timeout</key>
+		<integer>2</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>

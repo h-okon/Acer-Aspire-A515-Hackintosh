@@ -12,6 +12,7 @@
 ## <center>is what I picked instead of 12" MacBook</center>
 ## But why you may ask, well - here are some benchmarks:
 ![benchmarks](https://i.imgur.com/YJLJFUv.png)
+Note: I do not use this setup anymore, however this efi-folder is still valid as for 10.14.5 version.
 ### Hardware used:
 
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
@@ -20,7 +21,6 @@
 ### ⛔️ what is not working:
 
 1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
-2. Bluetooth (if you are using DW1560)
 
 
 ### WARNING
@@ -37,10 +37,6 @@ There are many tutorials on how to install OSX on a PC class hardware. However u
 
 ### Post installation
 
-Fix messed up audio on audio-layout 3 while using headphones
-This is tested on Xiaomi notebooks, however it will work just fine with our Acer Aspire A515 (Which uses the same ALC255 codec and even has the same pinout!)
-[click](https://github.com/hackintosh-stuff/ComboJack)
-
 First things first, if you are using an SSD make sure to enable the TRIM support:
 
 ```
@@ -51,37 +47,6 @@ $ sudo trimforce enable
 
 Install Clover on your hardware, copy EFI to EFI and run those commands:
 
-```sh
-
-$ sudo rm -rf /System/Library/Extensions/AppleACPIPS2Nub.kext
-
-$ sudo rm -rf /System/Library/Extensions/ApplePS2Controller.kext
-
-$ sudo rm -rf /System/Library/Extensions/ApplePS2SmartTouchPad.kext
-
-$ sudo rm -rf /Library/Extensions/AppleACPIPS2Nub.kext
-
-$ sudo rm -rf /Library/Extensions/ApplePS2Controller.kext
-
-```
-
-Then download VoodooPS2 from [here](https://bitbucket.org/RehabMan/os-x-voodoo-ps2-controller/downloads/) and run following commands:
-
-```
-
-$ cd directory-to-where-your-unzipped-download-is
-
-$ sudo cp -R Release/VoodooPS2Controller.kext /Library/Extensions
-
-```
-
-Lastly, refresh the kernel cache by issuing following command:
-
-```
-
-$ sudo touch /System/Library/Extensions && sudo kextcache -u /
-
-```
 
 ### reboot and enjoy!
 ### Credits:
