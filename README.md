@@ -18,6 +18,7 @@ Note: I do not use this setup anymore, however this efi-folder is still valid as
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
 (all newest, all in base configs)
 
+
 ### ⛔️ what is not working:
 
 1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
