@@ -1,7 +1,7 @@
 ### WARNING
 
 <sub><sup>
- ###### /** Your warranty may be void.* * I am not responsible for bricked devices, dead SD cards, dead hard drivers or ANY damage and * thermonuclear war, or you getting fired because the calendar app failed. Please * do some research if you have any concerns about files included in this repository* before installing it! YOU are choosing to make these modifications, and if* you point the finger at me for messing up your device, I will laugh at you. If you wish to proceed - you are free to do so! I mean you are on github - you should know what you are doing.*/
+ ###### /** Your warranty may be void. I am not responsible for bricked devices, dead SD cards, dead hard drivers or ANY damage and * thermonuclear war, or you getting fired because the calendar app failed. Please do some research if you have any concerns about files included in this repository before installing it! YOU are choosing to make these modifications If you wish to proceed - you are free to do so! I mean you are on github - you should know what you are doing.*/
   </sub></sup>
   
   
@@ -46,10 +46,6 @@ First things first, if you are using an SSD make sure to enable the TRIM support
 $ sudo trimforce enable
 
 ```
-
-Install Clover on your hardware, copy EFI to EFI and run those commands:
-
-
 ### reboot and enjoy!
 ### Credits:
 
