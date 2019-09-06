@@ -15,6 +15,16 @@
 ## <center>is what I picked instead of 12" MacBook</center>
 ## But why you may ask, well - here are some benchmarks:
 ![benchmarks](https://i.imgur.com/YJLJFUv.png)
+### Full spec:
+* *CPU* : Intel Core i5-8250U (base 1.6GHz, boost 3.6GHz, syntetic load stable 2.4GHz, cinebench 1200pts)
+* *RAM* : 4GB DDR4 unknown soldered onto the motherboard, 4GB DDR4 Goodram 2400MHz 
+* *GPU* : Intel UHD Graphics 620 1536MB / 2048MB
+* *dGPU*: NVidia MX130 2048GB (disabled using DSDT patches)
+* *SSD* : 120GB  KINGSTON SA400S37 
+* *HDD* : Western Digital Blue 01984 1TB
+* *AUD: : ALC 255 layout-id: 31
+* *WIFI*: BCM94352z dualband wi-fi
+
 ### Hardware used:
 
 ![alt text](https://i.imgur.com/gh12k45.png  "specs")
