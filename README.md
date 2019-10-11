@@ -34,7 +34,7 @@
 
 1. Wi-Fi card (You will need to replace it to the oe that's compatibile - DW1560 will do.)
 2. BCM94352z bluetooth (works, but does not connect to my apple keyboard and magic mouse)
-3. Out of box combojack ([FIX AVAILABLE](https://github.com/hackintosh-stuff/ComboJack))
+3. OOB combojack ([FIX AVAILABLE](https://github.com/hackintosh-stuff/ComboJack))
  Note: If you want to use combojack and only internal mic - use layout 3. If you want to use headset use layout 31. Layout 31 is yet not well supported and undefined behaviours occur (because combojack is designed for layout 71)
 ### ⛔️ WARNINGS:
 * Remove kexts + kext patches asociated with BCM94352Z(DW1560) if you do not have installed one
