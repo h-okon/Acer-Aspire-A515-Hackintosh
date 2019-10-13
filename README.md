@@ -22,7 +22,7 @@
 * *dGPU*: NVidia MX130 2048mb (disabled using DSDT patches)
 * *SSD* : 120GB  KINGSTON SA400S37 
 * *HDD* : Western Digital Blue 01984 1TB
-* *AUD*: : ALC 255 layout-id: 31
+* *AUD*: : ALC 255 layout-id: 31 / layout-id: 3 (try both and decide which one is more stable for your setup)
 * *WIFI* : BCM94352z dualband (2,4 + 5) wi-fi
 
 ### Hardware used:
