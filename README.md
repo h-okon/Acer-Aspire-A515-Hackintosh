@@ -40,7 +40,7 @@
 * Be aware of fake BCM94352z cards for under $25. Real cards are not cheap. Look for legit cards. Use aliexpress / chinese portals as a last resort.
 * Default Wifi card **DOES NOT** work under MacOS and will never do. Bluetooth might work - but it's power managament is not supported, so you are stuck with always on BT.
 ### Installation
-
+ This guide is **ONLY** for Mojave 10.14.* It might not work on Catalina or High Sierra.
   
 
 There are many tutorials on how to install OSX on a PC class hardware. However using my Clover you can simply install OS 10.14 or newer on Acer Aspire A515. Make sure to connect **USB keyboard and mouse** as the I2C bus and PS2 is **NOT**supported (yet) during instalation.
